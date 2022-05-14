@@ -53,7 +53,7 @@ simpanganrata <- 1/sum(fi)*sum(fi*abs(xi-X))
 
 ###
 
-###Simpanga baku
+###Simpangan Baku
 varian <- 1/sum(fi)*sum(fi*(xi-X)^2)
 
 simpanganBaku <-sqrt(varian)
